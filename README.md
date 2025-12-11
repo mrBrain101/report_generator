@@ -34,7 +34,7 @@
 Скрипт проверяет
 - присутствие и корректность обязательных параметров ([`_arguments_parser`](src/data_processing/data_processing.py#L15));
 - существование файлов по заданному пути, названия и расширения файлов<br> ([`_arguments_files_checker`](src/data_processing/data_processing.py#L24));
-- названия отчетов ([`_arguments_report_checker`](src/reports/reports.py#L17)).
+- названия отчетов ([`_arguments_report_checker`](src/reports/reports.py#L16)).<br>
 Содержимое данных всегда считается валидным.
 
 ### Формирование отчетов
@@ -48,7 +48,7 @@
 ### Добавление отчётов
 Скрипт предусматривает быстрое добавление новых отчетов.<br>
 Для добавления нового отчета достаточно
-- добавить метод с логикой нового отчёта и именем идентичным аргументу/названию отчета в класс [`Report`](src/reports/reports.py#L9) модуля `reports/reports.py`(для отчета с аргументом `skills` метод должен называться идентично - `skills`);
+- добавить метод с логикой нового отчёта и именем идентичным аргументу/названию отчета в класс [`Report`](src/reports/reports.py#L8) модуля `reports/reports.py`(для отчета с аргументом `skills` метод должен называться идентично - `skills`);
 - опционально добавить название нового аргумента/отчета в список [`valid_report_types`](report_generator.ini) для добавления нового отчёта в некоторые тесты (для отчёта с аргументом `skills` в список должен быть добавлен элемент `skills`).
 
 ## Структура репозитория
@@ -149,7 +149,7 @@ docker start -ai report
 
 ### Локально
 <details>
-<summary><b>Скриншот запуска локально</b>b</summary>
+<summary><b>Скриншот запуска локально</b></summary>
 <img src=/execution_screenshots/run_locally.png>
 </details>
 
@@ -167,7 +167,7 @@ uv venv
 #### Активация локальной среды
 Linux / MacOS:
 ```bash 
-source venv/bin/activate`
+source venv/bin/activate
 ```
 Windows:
 ```console
