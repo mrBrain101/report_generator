@@ -3,7 +3,7 @@ from src.reports.reports import *
 
 
 class TestReport:
-    def test_make_performance_report(self, capsys : pytest.CaptureFixture[str]):
+    def test_make_performance_report(self):
         data = [('Albert', 'Frontend', '1', '1', 'Python', 'Mobile', '3'),
                 ('Albert', 'Frontend', '1', '5', 'Python', 'Mobile', '3')]
         employee_data : list[EmployeeData] = (
