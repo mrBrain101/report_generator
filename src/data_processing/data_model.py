@@ -12,6 +12,8 @@ class EmployeeData:
     team: str
     experience_years: int
 
+    # Автоматическое приведение типов в строке, 
+    # т.к. содержание csv считаем валидным.
     def __post_init__(self) -> None:
         type_hints = get_type_hints(type(self))
         for field in fields(self):
