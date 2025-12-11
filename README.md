@@ -10,7 +10,7 @@
 
 <details>
 <summary>Запуск локально</summary>
-[execution_screenshots/run_locally.png](https://github.com/mrBrain101/report_generator/blob/8a9dd9fdc89b4e86b582b96c3f6fb8b7b45ce5a7/execution_screenshots/run_locally.png)
+<img  src=/execution_screenshots/run_locally.png>
 </details>
 
 Подробнее установка и запуск описаны в разделе <a href="#установка,-использование-и-примеры-запуска">Установка, использование и примеры запуска</a>.
@@ -92,11 +92,9 @@ git clone https://github.com/mrBrain101/report_generator.git
 
 ### Docker
 
-![img](./execution_screenshots/run_container.png)
-
 <details>
-<summary>Скриншот запуска в контейнере</summary>
-![img](./execution_screenshots/run_container.png)
+<summary><b>Скриншот запуска в контейнере</b>b</summary>
+<img src=/execution_screenshots/run_container.png>
 </details>
 
 - При необходимости установите <a href="https://www.docker.com/" target="_blank">Docker</a>
@@ -143,11 +141,9 @@ docker start -ai report
 - Другие команды доступны <a href=https://docs.docker.com/reference/cli/docker/ target="_blank">здесь</a>.
 
 ### Локально
-![img](./execution_screenshots/run_locally.png)
-
 <details>
-<summary>Скриншот запуска в контейнере</summary>
-![img](./execution_screenshots/run_locally.png)
+<summary><b>Скриншот запуска локально</b>b</summary>
+<img src=/execution_screenshots/run_locally.png>
 </details>
 
 Все команды выполняются в директории проекта.
