@@ -10,7 +10,7 @@
 
 <details>
 <summary>Запуск локально</summary>
-![img](./execution_screenshots/run_locally.png)
+![img](execution_screenshots/run_locally.png)
 </details>
 
 Подробнее установка и запуск описаны в разделе <a href="#установка,-использование-и-примеры-запуска">Установка, использование и примеры запуска</a>.
