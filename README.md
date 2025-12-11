@@ -5,7 +5,7 @@
 Примеры запуска:
 <details>
 <summary>Запуск из контейнера</summary>
-![img](./execution_screenshots/run_container.png)
+<img src=/execution_screenshots/run_container.png>
 </details>
 
 <details>
