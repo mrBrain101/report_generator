@@ -10,7 +10,7 @@
 
 <details>
 <summary>Запуск локально</summary>
-![img](execution_screenshots/run_locally.png)
+[execution_screenshots/run_locally.png](https://github.com/mrBrain101/report_generator/blob/8a9dd9fdc89b4e86b582b96c3f6fb8b7b45ce5a7/execution_screenshots/run_locally.png)
 </details>
 
 Подробнее установка и запуск описаны в разделе <a href="#установка,-использование-и-примеры-запуска">Установка, использование и примеры запуска</a>.
